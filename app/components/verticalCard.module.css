@@ -1,0 +1,14 @@
+.verticalCard {
+    width: 360px;
+    border-radius: 1rem;
+}
+
+.verticalCardTitle {
+    margin-block-end: 1rem;
+    font-weight: 300;
+}
+
+.verticalVideo {
+    overflow: hidden;
+    border-radius: 1rem;
+}

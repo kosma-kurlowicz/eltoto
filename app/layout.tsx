@@ -34,8 +34,8 @@ export default function RootLayout({
         <main className="main">
           {children}
         </main>
-        <footer>
-          <p>Footer</p>
+        <footer className="footer">
+          <p>El ToTo Studio &copy; 2024</p>
         </footer>
       </body>
     </html>
