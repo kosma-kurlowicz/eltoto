@@ -1,0 +1,42 @@
+.headingLarge {
+    font-size: 6rem;
+}
+
+.contentLarge {
+    font-size: 2rem;
+}
+
+.twoColumnContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    border: 1px solid rgb(220,220,220);
+    border-radius: 1.1rem;
+    overflow: hidden;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 8px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
+}
+
+.twoColumnContainer > div:first-child {
+    padding: 2rem;
+    width: 20%;
+    min-width: 360px;
+    height: 100%;
+}
+
+.twoColumnContainer > div:last-child {
+    width: 80%;
+}
+
+@media (max-width: 600px) {
+    .twoColumnContainer {
+        flex-wrap: wrap;
+    }
+
+    .twoColumnContainer > div:first-child,
+    .twoColumnContainer > div:last-child {
+        width: 100%;
+    }
+}

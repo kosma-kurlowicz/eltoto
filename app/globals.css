@@ -87,6 +87,13 @@ body {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -158,10 +165,13 @@ nav li {
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   padding: 6rem 2rem;
   min-height: 100vh;
+  max-width: 80rem;
+  width: 100%;
+  gap: 2rem;
 }
 
 a {

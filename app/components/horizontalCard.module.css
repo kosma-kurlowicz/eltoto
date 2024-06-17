@@ -1,0 +1,5 @@
+.horizontalCard {
+    width: 360px;
+    border-radius: 1rem;
+    border: 1px dashed red;
+}
