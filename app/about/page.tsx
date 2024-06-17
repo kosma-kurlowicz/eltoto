@@ -6,7 +6,7 @@ export default function About() {
   return (
     <>
       <h1 className={styles.headingLarge}>Hi!</h1>
-      <p className={styles.contentLarge}>Hey, I'm a short form video artist. I specialize in video and video ads published on social media. As a cultural anthropologist, I create strong narratives with a punch line.</p>
+      <p className={styles.contentLarge}>Hey, I&apos;m a short form video artist. I specialize in video and video ads published on social media. As a cultural anthropologist, I create strong narratives with a punch line.</p>
       <div className={styles.twoColumnContainer}>
         <div>
           <h1>Kosma Kurłowicz</h1>
@@ -19,7 +19,7 @@ export default function About() {
           </div>
           <div>
           <ul>
-            <li>&ndash; Jagiellonian University: Anthropology &ndash; Master's Degree</li>
+            <li>&ndash; Jagiellonian University: Anthropology &ndash; Master&apos;s Degree</li>
             <li>&ndash; DaVinci Resolve 18 Editing Training</li>
             <li>&ndash; DaVinci Resolve 18 Color Training</li>
           </ul>
