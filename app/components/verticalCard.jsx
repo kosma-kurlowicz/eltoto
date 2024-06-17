@@ -5,7 +5,7 @@ export default function VerticalCard(props) {
     <div className={styles.verticalCard}>
       <h2 className={styles.verticalCardTitle}>{props.title}</h2>
       <div className={styles.verticalVideo}>
-        <video width="360" height="636" controls preload="auto">
+        <video width="360" height="640" controls preload="auto">
           <source src={props.source} type="video/mp4" />
           <track
             src="/path/to/captions.vtt"

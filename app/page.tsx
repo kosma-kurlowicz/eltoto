@@ -7,10 +7,10 @@ export default function Home() {
   return (
     <>
       <VerticalCardContainer>
-        <VerticalCard title="Abc" source="/video/cym-sense-short-10-final-small.mp4"></VerticalCard>
-        <VerticalCard title="CDE" source=""></VerticalCard>
-        <VerticalCard title="gth" source=""></VerticalCard>
-        <VerticalCard title="safg" source=""></VerticalCard>
+        <VerticalCard title="Telos Short" source="/video/cym-totem-telos-short-09-final-360x640.mp4"></VerticalCard>
+        <VerticalCard title="Sense Reel" source="/video/cym-sense-short-10-final-360x640.mp4"></VerticalCard>
+        <VerticalCard title="Social" source=""></VerticalCard>
+        <VerticalCard title="Social" source=""></VerticalCard>
       </VerticalCardContainer>
     </>
   );
