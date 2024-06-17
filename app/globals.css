@@ -103,7 +103,6 @@ header, footer {
   justify-content: space-between;
   padding: 1rem;
   width: 100%;
-  border: 1px dashed red;
 }
 
 footer {
@@ -111,11 +110,34 @@ footer {
   font-size: 0.8rem;
 }
 
-header nav {
+.footerBadge {
+  background-color: rgb(255,255,255);
+  border: 1px solid rgb(30,30,30);
+  border-radius: 99rem;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.footerBadge p:first-child {
   background-color: rgb(30,30,30);
-  color: rgba(255, 255, 255, 1);
-  padding: 0.5rem 0.8rem 0.6rem 0.8rem;
-  border-radius: 2rem;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 99rem;
+}
+
+.footerBadge p:last-child {
+  padding: 0.3rem 0.6rem;
+  border-radius: 99rem;
+}
+
+header nav {
+  color: rgb(30,30,30);
+  border: 1px solid rgb(30,30,30);
+  border-radius: 99rem;
 }
 
 header nav ul {
@@ -123,12 +145,14 @@ header nav ul {
   flex-direction: row;
   justify-content: flex-start;
   align-content: center;
-  gap: 1rem;
+}
+
+header nav li {
+  padding: 0.5rem 0.8rem 0.6rem 0.8rem;
 }
 
 nav li {
   list-style-type: none;
-  padding: 0.2rem;
 }
 
 .main {
@@ -147,6 +171,16 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+header .link {
+  border-radius: 99rem;
+}
+
+header .link.active {
+  background-color: rgb(30,30,30);
+  color: rgb(255,255,255);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 8px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
 }
 
 @media (prefers-color-scheme: dark) {

@@ -1,7 +1,6 @@
 .verticalCardContainer {
     max-width: 80rem;
     width: 100%;
-    border: 1px dashed red;
     display: flex;
     flex-direction: row;
     justify-content: center;
