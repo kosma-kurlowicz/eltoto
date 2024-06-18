@@ -21,13 +21,7 @@ export default function RootLayout({
       <body>
         <header>
           <Link href="/">
-            <Image
-              src="/vercel.svg"
-              alt="El ToTo Movie Studio Logo"
-              width={100}
-              height={24}
-              priority
-            />
+            <Image src="./eltotocine-logo-export.svg" width={108} height={64} alt="El ToTo Logo" />
           </Link>
           <Navigation />
         </header>
