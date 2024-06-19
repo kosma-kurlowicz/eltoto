@@ -4,6 +4,15 @@ import Image from "next/image";
 import "./globals.css";
 import Navigation from "./components/navigation";
 
+import { Figtree } from 'next/font/google'
+ 
+// If loading a variable font, you don't need to specify the font weight
+const figtree = Figtree({
+  subsets: ['latin-ext'],
+  weight: '400',
+  display: 'swap',
+})
+
 const siteTitle: string = "El Toto Movie Studio";
 
 export const metadata: Metadata = {
@@ -17,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={figtree.className}>
       <body>
         <header>
           <Link href="/">
